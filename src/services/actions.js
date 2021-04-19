@@ -13,7 +13,7 @@ export function fetchPeople() {
     .get('https://fakerapi.it/api/v1/persons?_locale=en_EN')
     .then(result => {
       // console.log(data)
-      const { data: people, status, code, total } = result.data
+      const { data: people } = result.data
 
       people.forEach(person => {
         let addressInString = ""
