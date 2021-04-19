@@ -1,0 +1,8 @@
+.footer {
+  padding: 1.5em 0;
+  font-size: 0.8em;
+  background-color: #282C34;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+}
